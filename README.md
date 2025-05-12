@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# Mapinion
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Mapinion** construído com **React Native** e **Expo Router**, **Mapinion** conecta usuários ao redor do mundo, oferecendo uma plataforma robusta e intuitiva para compartilhar e descobrir recomendações autênticas, avaliações sinceras e imagens dos locais.
 
-## Get started
+Seja você um explorador ávido ou alguém em busca de um novo café para descontrair, **Mapinion** transforma cada recomendação em uma experiência única, criando uma comunidade de avaliações que realmente importam.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🧭 Funcionalidades Principais
 
-2. Start the app
+- **Autenticação de Usuário**: Entre ou crie sua conta com facilidade, contando com validação e feedback visual em tempo real.
+- **Compartilhamento de Recomendações**: Avalie seus locais favoritos com título, imagem, nota (1 a 5 estrelas) e um comentário completo.
+- **Interface Intuitiva**: Navegação simples e design responsivo que garante uma experiência fluida, seja em um dispositivo grande ou pequeno.
+- **Integração com Backend**: Comunicação eficiente com API para persistir dados e manter a experiência de usuário sempre consistente.
 
-   ```bash
-   npx expo start
-   ```
+## 🧱 Estrutura de Pastas
 
-In the output, you'll find options to open the app in a
+| Pasta/Arquivo        | Descrição                                                            |
+|----------------------|----------------------------------------------------------------------|
+| `app/`               | Contém os componentes principais do aplicativo.                      |
+| `assets/`            | Recursos estáticos como imagens e ícones.                            |
+| `components/`        | Componentes reutilizáveis em diferentes telas.                       |
+| `constants/`         | Definições de cores, estilos e outras constantes.                    |
+| `store/`             | Gerenciamento de estado global utilizando Zustand.                   |
+| `app.json`           | Configurações do projeto Expo.                                       |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ⚙️ Tecnologias Utilizadas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Tecnologia            | Descrição                                                              |
+|-----------------------|------------------------------------------------------------------------|
+| React Native          | Framework para desenvolvimento mobile.                                |
+| Expo                  | Plataforma para desenvolvimento e build de apps React Native.         |
+| JavaScript            | Linguagem de programação                                               |
+| Zustand               | Biblioteca para gerenciamento de estado.                              |
+| React Navigation      | Navegação entre telas do aplicativo.                                  |
+| Expo Image Picker     | Seleção de imagens da galeria do dispositivo.                         |
+| Ionicons              | Biblioteca de ícones para interfaces.   
 
-## Get a fresh project
+## 🚀 Como Executar o Projeto
 
-When you're ready, run:
+Para rodar o projeto localmente, siga os passos abaixo:
 
-```bash
-npm run reset-project
-```
+1. **Clone o repositório:** Use o comando para clonar o repositório para o seu ambiente local:
+- git clone https://github.com/devrafcks/React-native_mapinion-app.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+2. **Instale as dependências:** Navegue até o diretório do projeto e instale as dependências necessárias:
+- npm install
 
-To learn more about developing your project with Expo, look at the following resources:
+3. **Inicie o projeto:** Para rodar o projeto, execute o comando abaixo:
+- npx expo start
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+4. **Teste o aplicativo:** Abra o aplicativo no emulador ou dispositivo físico usando o **Expo Go** para visualizar e testar as funcionalidades.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
