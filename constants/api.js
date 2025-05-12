@@ -1,0 +1,1 @@
+export const API_URL = 'https://react-native-mapinion.onrender.com/api'; 
