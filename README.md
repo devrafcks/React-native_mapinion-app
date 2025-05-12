@@ -6,6 +6,7 @@ Seja você um explorador ávido ou alguém em busca de um novo café para descon
 
 ---
 
+
 ## 🧭 Funcionalidades Principais
 
 - **Autenticação de Usuário**: Entre ou crie sua conta com facilidade, contando com validação e feedback visual em tempo real.
@@ -35,6 +36,26 @@ Seja você um explorador ávido ou alguém em busca de um novo café para descon
 | React Navigation      | Navegação entre telas do aplicativo.                                  |
 | Expo Image Picker     | Seleção de imagens da galeria do dispositivo.                         |
 | Ionicons              | Biblioteca de ícones para interfaces.   
+
+## 🖼️ Telas do Aplicativo
+
+### 🔐 Login
+<img src="https://github.com/user-attachments/assets/1c388080-5652-44f7-8278-8a4250022638" width="300"/>
+
+### 📝 Cadastro
+<img src="https://github.com/user-attachments/assets/84c34325-c970-4b7b-9cea-eb2ba41f084f" width="300"/>
+
+### 🏠 Home
+<img src="https://github.com/user-attachments/assets/92ad8c4a-9ca1-4aa3-92e0-488cc6909b0b" width="300"/>
+
+### ➕ Compartilhar
+<img src="https://github.com/user-attachments/assets/bb0a4dfe-e41a-429f-a1b5-6689e43cef3d" width="300"/>
+
+### 👤 Perfil
+<img src="https://github.com/user-attachments/assets/fb6c6d2c-9262-4499-85a3-aff10e47103a" width="300"/>
+
+---
+
 
 ## 🚀 Como Executar o Projeto
 
